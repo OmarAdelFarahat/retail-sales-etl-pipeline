@@ -29,3 +29,21 @@ H --> I[Index Optimization]
 H --> J[Reporting Views]
 
 J --> K[Power BI / BI Tools]
+```markdown
+---
+
+# Dataset
+
+The project uses the **Supermarket Sales dataset**, which contains transactional retail data including:
+
+- Customer information
+- Product categories
+- Store locations
+- Payment methods
+- Sales metrics
+
+Each row represents a **single sales transaction**.
+
+Dataset source:
+
+https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
