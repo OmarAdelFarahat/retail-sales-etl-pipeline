@@ -1,43 +1,31 @@
-# Retail Sales ETL Pipeline
+# Retail Sales ETL Pipeline (Python + SQL Server)
 
-This project demonstrates a simple end-to-end ETL pipeline using Python and SQL Server.
+This project demonstrates a simple **end-to-end ETL pipeline** using **Python, Pandas, and SQL Server**.
 
-## Architecture
+The pipeline extracts retail transaction data from a CSV dataset, performs **exploratory data analysis, data cleaning, and transformations**, then loads the processed data into a **SQL Server data warehouse designed with a star schema**.
 
-CSV Dataset
-     ↓
-Python ETL (Pandas)
-     ↓
-SQL Server Data Warehouse
-     ↓
-Reporting Views
-     ↓
-Power BI Ready
+The warehouse includes **dimension tables, a fact table, indexes for performance optimization, and reporting views** designed for Business Intelligence tools such as Power BI.
 
-## Technologies
+---
 
-- Python
-- Pandas
-- pyodbc
-- SQL Server
-- Data Warehousing
-- Star Schema
+# Project Architecture
 
-## Data Warehouse Model
+```mermaid
+flowchart TD
 
-DimCustomer  
-DimStore  
-DimProduct  
-DimPayment  
-DimDate  
-↓  
-FactSales
+A[CSV Dataset] --> B[Python ETL Pipeline]
 
-## Features
+B --> C[Exploratory Data Analysis]
+B --> D[Data Cleaning]
+B --> E[Data Transformation]
 
-- Exploratory data analysis
-- Data cleaning and transformation
-- Star schema modeling
-- Incremental ETL loading
-- SQL indexing
-- BI-ready reporting views
+E --> F[Dimension Tables]
+
+F --> G[Fact Table]
+
+G --> H[SQL Server Data Warehouse]
+
+H --> I[Index Optimization]
+H --> J[Reporting Views]
+
+J --> K[Power BI / BI Tools]
