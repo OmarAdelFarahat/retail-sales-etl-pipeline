@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![ETL](https://img.shields.io/badge/Project-ETL%20Pipeline-green)
+
 # Retail Sales Data Warehouse & ETL Pipeline
 
 End-to-end **Data Engineering project** demonstrating:
@@ -51,7 +57,6 @@ The ETL pipeline was implemented using Python and Pandas.
 
 ```python
 import pandas as pd
-import numpy as np
 import pyodbc
 from sqlalchemy import create_engine
 ```
@@ -364,7 +369,7 @@ GROUP BY p.Product_line;
 | Category | Tools |
 |---|---|
 | Language | Python |
-| Libraries | Pandas, NumPy |
+| Libraries | Pandas |
 | Database | SQL Server |
 | Connectors | pyodbc, SQLAlchemy |
 | Modeling | Dimensional Modeling / Star Schema |
