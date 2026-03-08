@@ -299,4 +299,4 @@ notebooks/retail_sales_etl.ipynb
 
 ## Author
 
-Data Engineering Portfolio Project
+Omar Adel Farahat
