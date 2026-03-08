@@ -404,16 +404,6 @@ retail-sales-etl-pipeline/
 
 ---
 
-## Future Improvements
-
-- Airflow pipeline orchestration
-- Automated incremental loads
-- Dockerized pipeline
-- Cloud warehouse deployment
-- Power BI dashboard
-
----
-
 ## Author
 
 Omar Adel Farahat
