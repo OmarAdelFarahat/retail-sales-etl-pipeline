@@ -368,7 +368,6 @@ GROUP BY p.Product_line;
 | Database | SQL Server |
 | Connectors | pyodbc, SQLAlchemy |
 | Modeling | Dimensional Modeling / Star Schema |
-| Version Control | Git & GitHub |
 
 ---
 
