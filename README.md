@@ -37,7 +37,7 @@ flowchart TD
 
 ## Dataset
 
-This project uses the [Supermarket Sales dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales), which contains transactional retail data including:
+This project uses the [Supermarket Sales dataset](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales), which contains transactional retail data including:
 
 - Customer information
 - Product categories
