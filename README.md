@@ -3,6 +3,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![ETL](https://img.shields.io/badge/Project-ETL%20Pipeline-green)
+![Last Commit](https://img.shields.io/github/last-commit/OmarAdelFarahat/retail-sales-etl-pipeline)
 
 # Retail Sales Data Warehouse & ETL Pipeline
 
